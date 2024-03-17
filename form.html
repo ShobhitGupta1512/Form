@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head></head>
+    <title>Form</title>
+</head>
+
+<body align="center" style="background-color:rgb(28, 69, 73);border-style:dotted ;">
+    <h2  style="text-align: center ;">This is HTML Form</h2> 
+    <form action="Backend.php" style="text-align: center ;">
+        <label for="firstname">FirstName</label>
+        <div>
+            <input type="text" name="Enter your first name" id="firstname">
+        </div><br>
+        <label for="lastname">LastName</label>
+        <div>
+            <input type="text" name="Enter your last name" id="lastname">
+        </div><br>
+        <label for="email">Email</label>
+        <div>
+            <input type="text" name="Enter your email" id="email">
+        </div><br>
+        <label for="number">Number</label>
+        <div>
+            <input type="text" name="Enter your role number" id="number">
+        </div><br>
+        <label for="bonus">Bonus</label>
+        <div>
+            <input type="number" name="Enter your Bonus" id="bonus">
+        </div><br>
+
+        <div>
+            <label for="eligible">Eligibility</label>
+            <input type="checkbox" name="Enter your eligibility" id="eligible">
+        </div>
+        <dir>
+            <label for="car">Qualification</label>
+            <select name="branch" id="branch">
+                <option value="Indica">Btech CS</option>
+                <option value="Tracter">Btech EC</option>
+                <option value="Auto">Btech EE</option>
+                <option value="Saphari">MBA</option>
+                <option value="Indica">Btech IT</option>
+                <option value="Tracter">Btech ME</option>
+                <option value="Auto">Btech CE</option>
+                <option value="Saphari">Btech BCA</option>
+                <option value="Tracter">MCA</option>
+                <option value="Auto">Mtech</option>
+                <option value="Saphari">Bsc</option>
+            </select>
+        </dir>
+        <div>
+            <input type="radio" name="Select your gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="Select your gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="Select your gender" id="other">
+            <label for="other">Other</label>
+        </div><br>
+        <p>
+            <label>Date of Birth:<input type="date" name="birthDate"></label>
+        </p>
+        <div>
+            <label for="about"> Address </label>
+            <br><textarea name="Address" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" name="submit">
+            <input type="reset" name="Reset">
+        </div>
+
+    </form>
+
+</body>
+
+</html>
